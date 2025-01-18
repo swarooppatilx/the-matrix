@@ -41,7 +41,7 @@ if (!isAllowedUrl(currentUrl)) {
         padding: 30px;
         border: 2px solid #00ff00;
         border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 1);
         max-width: 700px;
         text-align: center;
         z-index: 1;
@@ -59,7 +59,6 @@ if (!isAllowedUrl(currentUrl)) {
 
       .allowed-sites {
         margin-top: 20px;
-        background: rgba(0, 0, 0, 0.9);
         padding: 15px;
         border-radius: 5px;
       }
